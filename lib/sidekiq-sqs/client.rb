@@ -1,5 +1,6 @@
 require 'base64'
 require 'zlib'
+require 'active_support/core_ext/module/aliasing'
 
 module Sidekiq
   module Sqs
